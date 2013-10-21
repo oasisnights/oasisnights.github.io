@@ -20,7 +20,7 @@ body {
 #shapes {
 	position: absolute;
 	height: 1250px;
-	min-height: 150%;
+	min-height: 120%;
 	top: 100px;
 	width: 100%;
 	background: url(/img/shapes.png) center 0 no-repeat transparent;
