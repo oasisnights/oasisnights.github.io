@@ -8,7 +8,7 @@ body {
 	background: url(/img/stars.png) center 0 repeat-x #000;
 }
 
-[logo] {
+#logo {
 	position: fixed;
 	padding-top: 100px;
 	width: 100%;
@@ -17,14 +17,16 @@ body {
 	background: url(/img/oasisnights.png) center 100px no-repeat transparent;
 }
 
-[shapes] {
+#shapes {
 	position: absolute;
 	height: 1250px;
+	min-height: 150%;
+	top: 100px;
 	width: 100%;
 	background: url(/img/shapes.png) center 0 no-repeat transparent;
 }
 
-[info] {
+#info {
 	position: fixed;
 	left: 0;
 	right: 0;
