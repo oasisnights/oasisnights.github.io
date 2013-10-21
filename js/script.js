@@ -11,5 +11,6 @@ $(function() {
 		var $logo = $('[logo]');
 		$body.parallax(st, 0.1);
 		$shapes.parallax(st, 0.4);
+		$logo.parallax(st, 0.07);
 	});
 });
