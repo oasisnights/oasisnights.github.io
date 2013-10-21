@@ -12,9 +12,9 @@ body {
 	position: fixed;
 	padding-top: 100px;
 	width: 100%;
-	height: 350px;
+	height: 800px;
 	z-index: 3;
-	background: url(/img/oasisnights.png) center 0 no-repeat transparent;
+	background: url(/img/oasisnights.png) center 100px no-repeat transparent;
 }
 
 [shapes] {
