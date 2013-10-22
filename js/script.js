@@ -15,7 +15,7 @@ $(function() {
 		var $logo = $('#logo');
 		$body.parallax(st, 0.3);
 		$shapes.parallax(st, -0.5, 100);
-		$logo.parallax(st, -0.05, 100);
+		$logo.parallax(st, -0.1, 100);
 	});
 
 	var str = 'info' + '\x40' + 'oasisnights' + '\x2e' + 'org';
