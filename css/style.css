@@ -37,6 +37,14 @@ audio {
 	z-index: 5;
 }
 
+#dummy {
+	position: absolute;
+	bottom: -450px;
+	width: 10px;
+	height: 10px;
+	background-color: transparent;
+}
+
 a {
 	color: #fcfcfc;
 	text-decoration: none;

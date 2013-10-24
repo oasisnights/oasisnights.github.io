@@ -26,11 +26,14 @@ $(function() {
 
 	
 	var $enter = $('#enter');
-	var $fx = $('#mef')[0];
-	$fx.volume = 0.3;
+	var $fx = $('#mef');
+	$fx[0].volume = 0.3;
 	$enter.mouseover(function() {
-		$fx.load();
-		$fx.play();
+		$fx[0].play();
+	});
+
+	$fx.bind('ended', function(){
+		$fx[0].load();
 	});
 });
 
