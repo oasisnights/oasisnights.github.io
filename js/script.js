@@ -1,4 +1,6 @@
 $(function() {
+	$(document).scrollTop(0);
+
 	$.fn.parallax = function(st, r, offset) {
 		var offset = typeof offset !== 'undefined' ? offset : 0;
 		var posY = $(this).css('backgroundPosition').split(' ')[1];
@@ -12,6 +14,7 @@ $(function() {
 		var st = $(document).scrollTop();
 		var $body = $('body');
 		var $shapes = $('#shapes');
+		var $enter = $('#enter');
 		var $logo = $('#logo');
 		$body.parallax(st, 0.3);
 		$shapes.parallax(st, -0.5, 100);
@@ -20,6 +23,15 @@ $(function() {
 
 	var str = 'info' + '\x40' + 'oasisnights' + '\x2e' + 'org';
 	$('.info').attr('href', 'mailto:' + str).html(str);
+
+	
+	var $enter = $('#enter');
+	var $fx = $('#mef')[0];
+	$fx.volume = 0.3;
+	$enter.mouseover(function() {
+		$fx.load();
+		$fx.play();
+	});
 });
 
 

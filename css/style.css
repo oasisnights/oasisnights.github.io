@@ -3,9 +3,12 @@
 }
 
 body {
-	padding: 0;
 	margin: 0;
 	background: url(/img/stars.png) center 0 repeat-x #000;
+}
+
+audio {
+	display: none;
 }
 
 #logo {
@@ -19,35 +22,22 @@ body {
 
 #shapes {
 	position: absolute;
-	height: 1250px;
-	min-height: 120%;
+	height: 1550px;
 	top: 100px;
 	width: 100%;
-	background: url(/img/shapes.png) center 0 no-repeat transparent;
+	background: url(/img/shapes.png) center 75px no-repeat transparent;
 }
 
-#info {
-	position: fixed;
-	left: 0;
-	right: 0;
-	top: 500px;
+#enter {
+	position: absolute;
+	bottom: -400px;
+	right: 50%;
+	margin-right: -56px;
+	border: 0;
 	z-index: 5;
-	text-align: center;
-	color: #fff;
-	font-family: 'Bubbler One';
-	font-size: 1.5em;
-	text-shadow: 0px 0px 5px #fff;
 }
 
 a {
 	color: #fcfcfc;
 	text-decoration: none;
-}
-
-a:hover:before {
-	content: "» ";
-}
-
-a:hover:after {
-	content: " «";
 }
